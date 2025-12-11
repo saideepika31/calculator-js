@@ -1,0 +1,34 @@
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Calculator{
+    background-color: black;
+    padding:50px;
+    border-radius: 10px;
+    width:280px;
+}
+#display{
+    text-align:right;
+    padding:10px;
+    border-radius:10px;
+    width:90%;
+}
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+button{
+    padding:15px;
+    border-radius:10px;
+    cursor: pointer;
+}
+#clear,#back,#per,#div,#mul,#add,#sub,#equal{
+    background-color: chocolate;
+    text-align: center;
+}
